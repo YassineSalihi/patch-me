@@ -549,9 +549,6 @@
 
     .line 130
     :cond_1
-
-    .line 130
-    :cond_1
     new-instance v0, Lsg/vantagepoint/uncrackable3/CodeCheck;
 
     invoke-direct {v0}, Lsg/vantagepoint/uncrackable3/CodeCheck;-><init>()V
