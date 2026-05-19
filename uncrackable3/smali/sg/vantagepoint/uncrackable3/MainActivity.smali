@@ -545,10 +545,10 @@
     if-eqz v0, :cond_1
 
     :cond_0
-    const-string v0, "Rooting or tampering detected."
+    return-void
 
-    .line 127
-    invoke-direct {p0, v0}, Lsg/vantagepoint/uncrackable3/MainActivity;->showDialog(Ljava/lang/String;)V
+    .line 130
+    :cond_1
 
     .line 130
     :cond_1
